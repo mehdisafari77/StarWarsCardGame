@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B5940DBD27C719280005787C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5940DBC27C719280005787C /* AppDelegate.swift */; };
 		B5940DBF27C719280005787C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5940DBE27C719280005787C /* SceneDelegate.swift */; };
-		B5940DC127C719280005787C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5940DC027C719280005787C /* ViewController.swift */; };
 		B5940DC427C719280005787C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5940DC227C719280005787C /* Main.storyboard */; };
 		B5940DC627C7192A0005787C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5940DC527C7192A0005787C /* Assets.xcassets */; };
 		B5940DC927C7192A0005787C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5940DC727C7192A0005787C /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		B5940DB927C719280005787C /* StarWarsCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5940DBC27C719280005787C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5940DBE27C719280005787C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5940DC027C719280005787C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5940DC327C719280005787C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5940DC527C7192A0005787C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5940DC827C7192A0005787C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,46 @@
 		B5940DBB27C719280005787C /* StarWarsCardGame */ = {
 			isa = PBXGroup;
 			children = (
-				B5940DBC27C719280005787C /* AppDelegate.swift */,
-				B5940DBE27C719280005787C /* SceneDelegate.swift */,
-				B5940DC027C719280005787C /* ViewController.swift */,
-				B5940DC227C719280005787C /* Main.storyboard */,
-				B5940DC527C7192A0005787C /* Assets.xcassets */,
-				B5940DC727C7192A0005787C /* LaunchScreen.storyboard */,
-				B5940DCA27C7192A0005787C /* Info.plist */,
+				B5940DD327C71A2E0005787C /* Resources */,
+				B5940DD227C71A2A0005787C /* Views */,
+				B5940DD027C71A060005787C /* Models */,
+				B5940DD127C71A0D0005787C /* Controllers */,
 			);
 			path = StarWarsCardGame;
+			sourceTree = "<group>";
+		};
+		B5940DD027C71A060005787C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5940DD127C71A0D0005787C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B5940DD227C71A2A0005787C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5940DC227C719280005787C /* Main.storyboard */,
+				B5940DC727C7192A0005787C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5940DD327C71A2E0005787C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5940DCA27C7192A0005787C /* Info.plist */,
+				B5940DC527C7192A0005787C /* Assets.xcassets */,
+				B5940DBE27C719280005787C /* SceneDelegate.swift */,
+				B5940DBC27C719280005787C /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5940DC127C719280005787C /* ViewController.swift in Sources */,
 				B5940DBD27C719280005787C /* AppDelegate.swift in Sources */,
 				B5940DBF27C719280005787C /* SceneDelegate.swift in Sources */,
 			);
